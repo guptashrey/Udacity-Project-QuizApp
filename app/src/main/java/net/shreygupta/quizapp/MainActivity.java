@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
             wrongAnswers = wrongAnswers + "Q6\n";
         }
 
-        if (answer7.equals(question7.getText().toString())) {
+        if (answer7.equalsIgnoreCase(question7.getText().toString())) {
             correctAnswers++;
         } else {
             wrongAnswers = wrongAnswers + "Q7\n";
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
         resetQuiz(findViewById(R.id.all));
     }
 
-    private void resetQuiz(View view) {
+    public void resetQuiz(View view) {
 
         correctAnswers = 0;
 

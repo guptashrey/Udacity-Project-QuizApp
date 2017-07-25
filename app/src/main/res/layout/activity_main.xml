@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#424242"
+    style="@style/root_layout"
     android:orientation="vertical"
-    android:padding="8dp"
     tools:context="net.shreygupta.quizapp.MainActivity">
 
     <ScrollView
@@ -211,13 +208,15 @@
                     style="@style/tv_question"
                     android:text="@string/quesSeven" />
 
+                <ImageView
+                    style="@style/imgview"
+                    android:contentDescription="@string/imgDesc"
+                    android:src="@drawable/batmobile" />
+
                 <EditText
                     android:id="@+id/Ques7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/quesSevenHint"
-                    android:textColor="@color/colorAccent"
-                    android:textColorHint="#7fffffff" />
+                    style="@style/edittext"
+                    android:hint="@string/quesSevenHint" />
 
             </LinearLayout>
 
@@ -330,24 +329,14 @@
             android:layout_weight="0.5" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/colorAccent"
+            style="@style/buttons"
             android:onClick="submitResponse"
-            android:text="Submit" />
+            android:text="@string/button1" />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/colorAccent"
+            style="@style/buttons"
             android:onClick="resetQuiz"
-            android:text="Reset" />
+            android:text="@string/button2" />
 
         <View
             android:layout_width="0dp"

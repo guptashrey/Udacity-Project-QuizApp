@@ -5,37 +5,37 @@
     <string name="quesOneOptOne">Dick Grayson</string>
     <string name="quesOneOptTwo">Michael Keaton</string>
     <string name="quesOneOptThree">Thomas Wayne</string>
-    <string name="quesOneOptFour">Bruce WayneR</string>
+    <string name="quesOneOptFour">Bruce Wayne</string>
 
 
     <string name="quesTwo">Q2. Who is the official creator(s) of Batman?</string>
-    <string name="quesTwoOptOne">Bob KaneR</string>
+    <string name="quesTwoOptOne">Bob Kane</string>
     <string name="quesTwoOptTwo">Martha Wayne</string>
-    <string name="quesTwoOptThree">Bill FingerR</string>
+    <string name="quesTwoOptThree">Bill Finger</string>
     <string name="quesTwoOptFour">Bruce Wayne</string>
 
     <string name="quesThree">Q3. Which of these characters co-exists in the same world as Batman?</string>
     <string name="quesThreeOptOne">Wolverine</string>
-    <string name="quesThreeOptTwo">SupermanR</string>
-    <string name="quesThreeOptThree">Wonder WomanR</string>
-    <string name="quesThreeOptFour"> JokerR</string>
+    <string name="quesThreeOptTwo">Superman</string>
+    <string name="quesThreeOptThree">Wonder Woman</string>
+    <string name="quesThreeOptFour"> Joker</string>
 
     <string name="quesFour">Q4. Which is the highest grossing Batman movie?</string>
     <string name="quesFourOptOne">Batman Begins</string>
     <string name="quesFourOptTwo">The Dark Knight</string>
-    <string name="quesFourOptThree">The Dark Knight RisesR</string>
+    <string name="quesFourOptThree">The Dark Knight Rises</string>
     <string name="quesFourOptFour">Batman v Superman: Dawn of Justice</string>
 
     <string name="quesFive">Q5. Which of these is NOT something Batman uses?</string>
     <string name="quesFiveOptOne">Batarang</string>
     <string name="quesFiveOptTwo">Underwater Breather</string>
-    <string name="quesFiveOptThree">GunR</string>
+    <string name="quesFiveOptThree">Gun</string>
     <string name="quesFiveOptFour">Utility Belt</string>
 
     <string name="quesSix">Q6. Who played Catwoman in The Dark Knight Rises?</string>
     <string name="quesSixOptOne">Michelle Pfeiffer</string>
     <string name="quesSixOptTwo">Eartha Kitt</string>
-    <string name="quesSixOptThree">Anne HathawayR</string>
+    <string name="quesSixOptThree">Anne Hathaway</string>
     <string name="quesSixOptFour">Scarlett Johansson</string>
 
     <string name="quesSeven">Q7. Batman has many means of transportation, which movie shows only the Batmobile during the entirety of the film?</string>
@@ -43,21 +43,25 @@
     <string name="answerSeven">batman</string>
 
     <string name="quesEight">Q8. Which of the following phrases have been commonly applied to Batman?</string>
-    <string name="quesEightOptOne">The Dark KnightR</string>
+    <string name="quesEightOptOne">The Dark Knight</string>
     <string name="quesEightOptTwo">The Emerald Crusader</string>
-    <string name="quesEightOptThree">The Caped CrusaderR</string>
-    <string name="quesEightOptFour">World\'s Greatest DetectiveR</string>
+    <string name="quesEightOptThree">The Caped Crusader</string>
+    <string name="quesEightOptFour">World\'s Greatest Detective</string>
 
     <string name="quesNine">Q9. Who is the Joker\'s accomplice and lover?</string>
     <string name="quesNineOptOne">Poison Ivy</string>
     <string name="quesNineOptTwo">Scarecrone</string>
-    <string name="quesNineOptThree">Harley QuinnR</string>
+    <string name="quesNineOptThree">Harley Quinn</string>
     <string name="quesNineOptFour">Cheshire</string>
 
     <string name="quesTen">Q10. Which of Batman\'s enemies is the leader of the League of Assassins?</string>
-    <string name="quesTenOptOne">Ra\'s al GhulR</string>
+    <string name="quesTenOptOne">Ra\'s al Ghul</string>
     <string name="quesTenOptTwo">Joker</string>
     <string name="quesTenOptThree">Bane</string>
     <string name="quesTenOptFour">Deathstroke</string>
+
+    <string name="button1">Submit</string>
+    <string name="button2">Reset</string>
+    <string name="imgDesc">Batmobile</string>
 
 </resources>
